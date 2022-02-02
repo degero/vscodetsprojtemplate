@@ -1,0 +1,15 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "chrome",
+            "request": "attach",
+            "name": "Debug Chrome",
+            "port": 9222,
+            "urlFilter": "localhost*",
+            "webRoot": "${workspaceFolder}",
+            "timeout": 15000,
+            "trace": "verbose"
+        }
+    ]
+}

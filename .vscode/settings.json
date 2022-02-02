@@ -1,0 +1,16 @@
+{
+    "editor.formatOnSave": false,
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": true,
+        "source.addMissingImports": true,
+    },
+    "[html]": {
+        "editor.formatOnSave": true
+    },
+    "eslint.validate": [
+        "javascript",
+        "typescript"
+    ],
+    "typescript.tsdk": "node_modules/typescript/lib",
+    "files.eol": "\n"
+}
